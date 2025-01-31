@@ -1,0 +1,48 @@
+body {
+ font-family: sans-serif;
+ color: #40c98d;
+ background-color: #27394a;
+ padding: 5%;
+}
+
+table{
+    background-color: #40c98d;
+    color:#27394a;
+}
+
+th, td{
+    padding: 1% 1%;
+    min-width: 150px;
+}
+
+th.active{
+    color: white;
+}
+
+.arrow{
+    display: inline-block;
+    vertical-align: middle;
+    width: 0;
+    height: 0;
+    margin-left: 1%;
+}
+
+.arrow.asc{
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 5px solid white;
+}
+
+.arrow.dsc{
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid white;
+}
+
+td{
+    background-color: white;
+}
+
+input{
+    font-size: 100%;
+}
